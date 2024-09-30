@@ -14,6 +14,5 @@ mvn clean package
 curl -v -u admin:admin@123 --upload-file target/java_war-1.0.0.war http://20.204.135.142:8081/repository/war-files/java-hello-world/java_war-1.0.0.war
 
 #step4: deploy to application server
-
 scp -r target/java_war-1.0.0.war azureuser@52.224.123.132:/home/azureuser/tomcat/webapps
 
